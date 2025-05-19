@@ -4,7 +4,7 @@ Source generator that generates useful extension and utility methods for enums
 
 ## Usage
 
-- Annonate your enum with `[GenerateExtensions]` Attribute
+- Annotate your enum with `[GenerateExtensions]` Attribute
     > You can optionally provide a `ClassName` for the generated class like so: `[GenerateExtensions(ClassName = "NameOfGeneratedClass")]`. By default, the name of the enum followed by the "Extensions" suffix is used as the class name.
     > Similarly, You can also provide an optional `Namespace` for the generated class. Default namespace is the same as the enum.
 - Done!
