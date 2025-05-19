@@ -1,0 +1,11 @@
+{
+  "name": "com.github.enum-extensions",
+  "displayName": "Enum Extensions",
+  "version": "0.3.1",
+  "description": "Source generator that generates useful extension and utility methods for enums",
+  "unity": "2022.3",
+  "keywords": [
+    "source-generator"
+  ],
+  "license": "MIT"
+}
