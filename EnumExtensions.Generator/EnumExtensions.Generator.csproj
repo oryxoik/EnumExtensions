@@ -7,6 +7,13 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <Version>0.3.1</Version>
+    <Authors>oryxoik</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/oryxoik/EnumExtensions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>source-generator</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +22,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>

@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <Version>0.3.1</Version>
+    <Authors>oryxoik</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/oryxoik/EnumExtensions</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>source-generator</PackageTags>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
